@@ -1,0 +1,165 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #413c69;
+    min-width: 320px;
+}
+
+.navbar {
+    background-color: #4a47a3;
+
+    &-brand {
+        font-size: 1.6rem;
+    }
+}
+
+.header {
+    background-color: #a7c5eb;
+    background-image: linear-gradient(315deg, #5c97e4 0%, #a7c5eb 74%);
+    height: 440px;
+    margin-bottom: 80px;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding-top: 2.8em;
+        height: 440px;
+    }
+
+    &__img {
+        border-radius: 15px;
+        overflow: hidden;
+
+        img {
+            width: 220px;
+        }
+    }
+
+    &__text {
+
+        position: absolute;
+        bottom: -44px;
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__icons {
+        display: none;
+    }
+}
+
+.main {
+    &__about-me {
+        &::before {
+            display: block;
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 3rem;
+            right: 0;
+            background-color: #fff;
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 3rem 100%);
+        }
+
+        h1 {
+            padding-top: .7rem;
+        }
+    }
+}
+
+
+
+@media(min-width: 576px) {
+    .header {
+        height: 386px;
+
+        &__text {
+            bottom: 10px;
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    .header {
+        height: 304px;
+        margin-bottom: 110px;
+
+        .wrapper {
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-evenly;
+            height: 345px;
+        }
+
+        &__text {
+
+            position: static;
+        }
+
+        &__icons {
+            position: absolute;
+            font-size: 8.5rem;
+            top: 38px;
+            right: 119px;
+            display: block;
+            opacity: .15;
+        }
+    }
+
+    .main {
+        &__about-me {
+
+            h1 {
+                padding-top: .7rem;
+            }
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    .header {
+        &__text {
+            h1 {
+                font-size: 3.8rem;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+        }
+
+        &__text {
+            position: relative;
+            bottom: -17px;
+        }
+
+        &__icons {
+            right: 190px
+        }
+    }
+}
+
+@media(min-width: 1400px) {
+    .header {
+
+        &__icons {
+            right: 266px
+        }
+    }
+}
