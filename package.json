@@ -1,0 +1,19 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Mateusz Jackowski",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "scss": "sass index.scss index.css --watch --no-source-map",
+    "serve": "browser-sync start --server --files 'index.html, index.css' --port 3003 --no-open",
+    "start": "concurrently \"npm run scss\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "concurrently": "^9.1.2",
+    "sass": "^1.89.0"
+  }
+}
