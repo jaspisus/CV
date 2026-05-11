@@ -1,0 +1,16 @@
+{
+  "page_title": "CV",
+  "contact_email_alt": "email",
+  "contact_phone_alt": "telefon",
+  "contact_location_alt": "lokalizacja",
+  "contact_linkedin_alt": "LinkedIn",
+  "location": "Gdynia, Trójmiasto",
+  "summary_heading": "O MNIE",
+  "summary_intro_strong": "Jestem programistą z blisko pięcioletnim doświadczeniem w budowie aplikacji webowych w oparciu o React i TypeScript.",
+  "summary_intro": "W ostatnim projekcie pracowałem w ramach Scrum, projektując architekturę aplikacji tworzonej w Next.js, stylowałem w Tailwind bazując na makietach w Figma, pisałem testy jednostkowe w Jest oraz zarządzałem repozytorium na GitHub.",
+  "summary_paragraph_2": "Tworzę czytelny, skalowalny kod i dbam o jego łatwość utrzymania, usprawniam workflow dzięki agentom AI, a wszystko to jednocześnie skupiając się na rozwiązaniach w kontekście produktu – potrzeb użytkowników i celów biznesowych.",
+  "summary_paragraph_3": "Mam doświadczenie w komercyjnych projektach zespołowych oraz w samodzielnym projektowaniu i wdrażaniu responsywnych stron internetowych.",
+  "summary_paragraph_4": "Poza pracą interesuję się elektroniką, techniką, nauką, oraz projektowaniem grafik rastrowych i wektorowych, np. zaproszeń, naklejek.",
+  "skills_heading": "UMIEJĘTNOŚCI",
+  "key_skills_heading": "Kluczowe umiejętności"
+}

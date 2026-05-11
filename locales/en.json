@@ -1,0 +1,16 @@
+{
+  "page_title": "CV",
+  "contact_email_alt": "email",
+  "contact_phone_alt": "phone",
+  "contact_location_alt": "location",
+  "contact_linkedin_alt": "LinkedIn",
+  "location": "Gdynia, Tricity",
+  "summary_heading": "SUMMARY",
+  "summary_intro_strong": "I am a developer with nearly five years of experience building web applications based on React and TypeScript.",
+  "summary_intro": "In my most recent project, I worked within a Scrum framework, designing the architecture of an application built with Next.js, styled it with Tailwind based on Figma mockups, wrote unit tests in Jest, and managed the GitHub repository.",
+  "summary_paragraph_2": "I write clean, scalable and maintainable code, streamline workflows with AI agents, and keep my focus on product-oriented solutions — user needs and business goals.",
+  "summary_paragraph_3": "I have experience in commercial team projects as well as independent design and deployment of websites.",
+  "summary_paragraph_4": "Outside of work I enjoy electronics, technology, science, and designing raster and vector graphics — such as invitations and stickers.",
+  "skills_heading": "SKILLS",
+  "key_skills_heading": "Key Skills"
+}

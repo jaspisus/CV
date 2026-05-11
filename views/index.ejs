@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="<%= getLocale() %>">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
+    <title><%= __('page_title') %></title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +22,7 @@
             <img
               class="heading__contact_icon"
               src="./assets/alternate_email.svg"
-              alt="email"
+              alt="<%= __('contact_email_alt') %>"
             />
             <span>mat.jackowski@icloud.com</span>
           </div>
@@ -30,7 +30,7 @@
             <img
               class="heading__contact_icon"
               src="./assets/phone.svg"
-              alt="phone"
+              alt="<%= __('contact_phone_alt') %>"
             />
             <span>+48 795 193 833</span>
           </div>
@@ -38,21 +38,34 @@
             <img
               class="heading__contact_icon"
               src="./assets/location_on.svg"
-              alt="location"
+              alt="<%= __('contact_location_alt') %>"
             />
-            <span>Gdynia, Tricity</span>
+            <span><%= __('location') %></span>
           </div>
           <div class="heading__contact_item">
             <img
               class="heading__contact_icon"
               src="./assets/account_circle.svg"
-              alt="linked_in"
+              alt="<%= __('contact_linkedin_alt') %>"
             />
             <a href="https://www.linkedin.com/in/m-jackowski/"
               >linkedin.com/in/m-jackowski/</a
             >
           </div>
         </div>
+      </div>
+      <div class="summary">
+        <h3><%= __('summary_heading') %></h3>
+        <p>
+          <strong><%= __('summary_intro_strong') %></strong>
+          <%= __('summary_intro') %>
+        </p>
+        <p><%= __('summary_paragraph_2') %></p>
+        <p><%= __('summary_paragraph_3') %></p>
+        <p><%= __('summary_paragraph_4') %></p>
+      </div>
+      <div class="skkills">
+        <h3><%= __('skills_heading') %></h3>
       </div>
     </div>
   </body>

@@ -5,15 +5,20 @@
   "license": "ISC",
   "author": "Mateusz Jackowski",
   "type": "commonjs",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "scss": "sass index.scss index.css --watch --no-source-map",
-    "serve": "browser-sync start --server --files 'index.html, index.css' --port 3003 --no-open",
+    "serve": "nodemon server.js",
     "start": "concurrently \"npm run scss\" \"npm run serve\""
   },
   "devDependencies": {
-    "browser-sync": "^3.0.3",
     "concurrently": "^9.1.2",
+    "nodemon": "^3.1.14",
     "sass": "^1.89.0"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "i18n": "^0.15.3"
   }
 }
