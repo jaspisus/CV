@@ -12,5 +12,60 @@
   "summary_paragraph_3": "I have experience in commercial team projects as well as independent design and deployment of websites.",
   "summary_paragraph_4": "Outside of work I enjoy electronics, technology, science, and designing raster and vector graphics — such as invitations and stickers.",
   "skills_heading": "SKILLS",
-  "key_skills_heading": "Key Skills"
+  "key_skills_heading": "Key Skills",
+  "sectors_knowledge": "Sectors knowledge",
+  "sectors_list": [
+    "e-commerce",
+    "Travel & Tourism",
+    "Cryptocurrency",
+    "Blockchain"
+  ],
+  "languages": "Languages",
+  "languages_list": ["Polish: native", "English: B2"],
+  "experience_heading": "EXPERIENCE",
+  "projects_heading": "Projects",
+  "experience_panels": [
+    {
+      "company": "goodspeed",
+      "position": "Frontend Developer",
+      "date": "05.2023 - present (3 years)",
+      "achievements": [
+        "Responsible for migrating the application from JavaScript to TypeScript, effectively eliminating production bugs;",
+        "Advanced Git proficiency: code reviews, branching strategies, and merge conflict resolution;",
+        "Collaborating with cross-functional teams (UX, Backend, QA, DevOps, Product, Support);",
+        "Leading Scrum ceremonies (Daily, Refinement)."
+      ],
+      "projects": [
+        "CRM/CMS application for catering management",
+        "Diet ordering panel (for eg. <a href=\"https://zamowienie.supermenu.com.pl/\">zamowienie.supermenu.com.pl</a>)"
+      ]
+    },
+    {
+      "company": "Berg Regions",
+      "position": "Frontend Developer Lead",
+      "date": "12.2022 - 05.2023 (6 months)",
+      "achievements": [
+        "Built a complete e-commerce interface from scratch;",
+        "Provided mentorship for Junior Developers."
+      ],
+      "projects": [
+        "a cross-regional tourist information platform (for eg. <a href=\"https://meanderoravice.sk/\">meanderoravice.sk</a>)"
+      ]
+    },
+    {
+      "company": "SimpleMining",
+      "position": "Junior Frontend Developer",
+      "date": "09.2021 – 12.2022 (1 year)",
+      "achievements": [
+        "Participated in migrating the application from React to Next.js;",
+        "Delivered continuous frontend improvements across the application"
+      ],
+      "projects": [
+        "Dashboard for managing GPU server farms (<a href=\"https://simplemining.net/\">simplemining.net</a>)"
+      ]
+    }
+  ],
+  "education_heading": "EDUCATION",
+  "education_university": "WSB Merito University",
+  "education_degree": "Bachelor, English Philology"
 }

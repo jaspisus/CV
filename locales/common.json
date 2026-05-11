@@ -1,0 +1,31 @@
+{
+  "key_skills_list": [
+    "TypeScript",
+    "JavaScript",
+    "React.js",
+    "Next.js",
+    "HTML5",
+    "CSS3",
+    "Tailwind",
+    "Sass",
+    "Redux",
+    "TanStack Query",
+    "Unit Testing (Jest)",
+    "Claude Code"
+  ],
+  "rest_skills_list": [
+    "Node.js",
+    "Express.js",
+    "Git",
+    "Eslint",
+    "OpenAI API (LLM)",
+    "Rest API",
+    "WebSocket"
+  ],
+  "additional_skills_list": [
+    "Agile/Scrum",
+    "Jira",
+    "Adobe Photoshop",
+    "Adobe Illustrator"
+  ]
+}

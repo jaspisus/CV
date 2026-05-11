@@ -13,38 +13,38 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body class="body">
-    <div class="cv-page">
-      <div class="heading">
-        <h1 class="heading__my_name">Mateusz Jackowski</h1>
+    <section class="cv-page">
+      <header class="heading">
+        <h1 class="heading__my-name">Mateusz Jackowski</h1>
         <h2 class="heading__position">Frontend Developer</h2>
         <div class="heading__contact">
-          <div class="heading__contact_item">
+          <div class="heading__contact-item">
             <img
-              class="heading__contact_icon"
+              class="heading__contact-icon"
               src="./assets/alternate_email.svg"
               alt="<%= __('contact_email_alt') %>"
             />
             <span>mat.jackowski@icloud.com</span>
           </div>
-          <div class="heading__contact_item">
+          <div class="heading__contact-item">
             <img
-              class="heading__contact_icon"
+              class="heading__contact-icon"
               src="./assets/phone.svg"
               alt="<%= __('contact_phone_alt') %>"
             />
             <span>+48 795 193 833</span>
           </div>
-          <div class="heading__contact_item">
+          <div class="heading__contact-item">
             <img
-              class="heading__contact_icon"
+              class="heading__contact-icon"
               src="./assets/location_on.svg"
               alt="<%= __('contact_location_alt') %>"
             />
             <span><%= __('location') %></span>
           </div>
-          <div class="heading__contact_item">
+          <div class="heading__contact-item">
             <img
-              class="heading__contact_icon"
+              class="heading__contact-icon"
               src="./assets/account_circle.svg"
               alt="<%= __('contact_linkedin_alt') %>"
             />
@@ -53,8 +53,8 @@
             >
           </div>
         </div>
-      </div>
-      <div class="summary">
+      </header>
+      <article class="summary">
         <h3><%= __('summary_heading') %></h3>
         <p>
           <strong><%= __('summary_intro_strong') %></strong>
@@ -63,10 +63,78 @@
         <p><%= __('summary_paragraph_2') %></p>
         <p><%= __('summary_paragraph_3') %></p>
         <p><%= __('summary_paragraph_4') %></p>
-      </div>
-      <div class="skkills">
+      </article>
+      <article class="skills">
         <h3><%= __('skills_heading') %></h3>
-      </div>
-    </div>
+        <div class="skills__key-skills-frame">
+          <h4 class="skills__key-skills-header">
+            <%= __('key_skills_heading') %>
+          </h4>
+          <div class="skills__key-skills">
+            <% common.key_skills_list.forEach(function(skill) { %>
+            <div class="skills__skill-item">
+              <strong>
+                <%= skill %>
+              </strong>
+            </div>
+            <% }); %>
+          </div>
+        </div>
+        <div class="skills__rest-skills">
+          <% common.rest_skills_list.forEach(function(skill) { %>
+          <div class="skills__skill-item">
+            <strong>
+              <%= skill %>
+            </strong>
+          </div>
+          <% }); %>
+          <% common.additional_skills_list.forEach(function(skill) { %>
+          <div class="skills__skill-item"><%= skill %></div>
+          <% }); %>
+        </div>
+        <h4 class="skills__sectors-header"><%= __('sectors_knowledge') %></h4>
+        <div class="skills__rest-skills">
+          <% __('sectors_list').forEach(function(sector) { %>
+          <div class="skills__skill-item"><%= sector %></div>
+          <% }); %>
+        </div>
+        <h4 class="skills__sectors-header"><%= __('languages') %></h4>
+        <div class="skills__rest-skills">
+          <% __('languages_list').forEach(function(language) { %>
+          <div class="skills__skill-item"><%= language %></div>
+          <% }); %>
+        </div>
+      </article>
+    </section>
+    <section class="cv-page">
+      <h3><%= __('experience_heading') %></h3>
+      <% __('experience_panels').forEach(function(panel) { %>
+      <article class="experience-panel">
+        <h4><%= panel.company %></h4>
+        <h5><%= panel.position %></h5>
+        <span class="experience-panel__note"><%= panel.date %></span>
+        <ul>
+          <% panel.achievements.forEach(function(achievement) { %>
+          <li><%= achievement %></li>
+          <% }); %>
+        </ul>
+        <span class="experience-panel__note">
+          <%= __('projects_heading') %>
+        </span>
+        <ul>
+          <% panel.projects.forEach(function(project) { %>
+          <li><%- project %></li>
+          <% }); %>
+        </ul>
+      </article>
+      <% }); %>
+    </section>
+    <section class="cv-page">
+      <article class="education">
+        <h3><%= __('education_heading') %></h3>
+        <h5><%= __('education_university') %></h5>
+        <span class="education__note"><%= __('education_degree') %></span>
+      </article>
+    </section>
   </body>
 </html>

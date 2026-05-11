@@ -12,5 +12,60 @@
   "summary_paragraph_3": "Mam doświadczenie w komercyjnych projektach zespołowych oraz w samodzielnym projektowaniu i wdrażaniu responsywnych stron internetowych.",
   "summary_paragraph_4": "Poza pracą interesuję się elektroniką, techniką, nauką, oraz projektowaniem grafik rastrowych i wektorowych, np. zaproszeń, naklejek.",
   "skills_heading": "UMIEJĘTNOŚCI",
-  "key_skills_heading": "Kluczowe umiejętności"
+  "key_skills_heading": "Kluczowe umiejętności",
+  "sectors_knowledge": "Znajomość sektorów",
+  "sectors_list": [
+    "e-commerce",
+    "Turystyka i podróże",
+    "Kryptowaluty",
+    "Blockchain"
+  ],
+  "languages": "Języki",
+  "languages_list": ["Polski: ojczysty", "Angielski: B2"],
+  "experience_heading": "DOŚWIADCZENIE",
+  "projects_heading": "Projekty",
+  "education_heading": "WYKSZTAŁCENIE",
+  "education_university": "Uniwersytet WSB Merito",
+  "education_degree": "Licencjat, Filologia Angielska",
+  "experience_panels": [
+    {
+      "company": "goodspeed",
+      "position": "Frontend Developer",
+      "date": "05.2023 - teraz (3 lata)",
+      "achievements": [
+        "Odpowiedzialność za migrację aplikacji z JavaScript do TypeScript, skutecznie eliminując błędy produkcyjne;",
+        "Zaawansowana znajomość Gita: code review, strategie branchowania, rozwiązywanie konfliktów przy scalaniu;",
+        "Współpraca z zespołami interdyscyplinarnymi (UX, Backend, QA, DevOps, Product, Support);",
+        "Prowadzenie ceremoniałów Scrumowych (Daily, Refinement)."
+      ],
+      "projects": [
+        "Aplikacja CRM/CMS do zarządzania cateringiem",
+        "Panel zamawiania diet (np. <a href=\"https://zamowienie.supermenu.com.pl/\">zamowienie.supermenu.com.pl</a>)"
+      ]
+    },
+    {
+      "company": "Berg Regions",
+      "position": "Frontend Developer Lead",
+      "date": "12.2022 - 05.2023 (6 miesięcy)",
+      "achievements": [
+        "Budowa kompletnego interfejsu e-commerce od podstaw;",
+        "Mentoring dla Junior Developerów."
+      ],
+      "projects": [
+        "Crossregionalna platforma informacji turystycznej (np. <a href=\"https://meanderoravice.sk/\">meanderoravice.sk</a>)"
+      ]
+    },
+    {
+      "company": "SimpleMining",
+      "position": "Junior Frontend Developer",
+      "date": "09.2021 – 12.2022 (1 rok)",
+      "achievements": [
+        "Uczestniczenie w migracji aplikacji z React do Next.js;",
+        "Stałe dostarczanie ulepszeń frontendowych w całej aplikacji"
+      ],
+      "projects": [
+        "Dashboard do zarządzania farmami serwerów GPU (<a href=\"https://simplemining.net/\">simplemining.net</a>)"
+      ]
+    }
+  ]
 }
