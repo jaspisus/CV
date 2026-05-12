@@ -1,3 +1,9 @@
+$color-page-bg: #fff;
+$color-body-bg: #e0e0e0;
+$grey-skill-bg: #e8e8e8;
+$grey-border-light: #bebebe;
+$grey-dark: #747474;
+
 @mixin separator {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -6,16 +12,16 @@
 
 @mixin skill-item {
   padding: 3px 6px;
-  background: #e8e8e8;
+  background: $grey-skill-bg;
   border-radius: 4px;
   font-size: 14px;
-  border: 1px solid #747474;
+  border: 1px solid $grey-dark;
 }
 
 .body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  background: #e0e0e0;
+  background: $color-body-bg;
   margin: 0;
 }
 
@@ -25,7 +31,7 @@
   margin: 60px auto;
   padding: 60px;
   box-sizing: border-box;
-  background: #fff;
+  background: $color-page-bg;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.18);
 }
 
@@ -36,7 +42,7 @@
 
 @media print {
   * {
-    color: device-cmyk(0 0 0 1) !important;
+    print-color-adjust: exact;
   }
 
   .body {
@@ -130,7 +136,7 @@ h3 {
   &__key-skills-frame {
     margin-top: 10px;
     padding: 8px;
-    border: 1px solid #bebebe;
+    border: 1px solid $grey-border-light;
     border-radius: 6px;
     margin-bottom: 15px;
   }
@@ -161,7 +167,7 @@ h3 {
 
 .experience-panel {
   padding-bottom: 8px;
-  border-bottom: 1px solid #bebebe;
+  border-bottom: 1px solid $grey-border-light;
 
   &:nth-last-child(1 of .experience-panel) {
     border-bottom: none;
@@ -189,7 +195,7 @@ h3 {
     display: inline-block;
     font-size: 14px;
     margin-bottom: 7px;
-    color: #828282;
+    color: $grey-dark;
   }
 
   ul {
