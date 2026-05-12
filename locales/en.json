@@ -67,5 +67,8 @@
   ],
   "education_heading": "EDUCATION",
   "education_university": "WSB Merito University",
-  "education_degree": "Bachelor, English Philology"
+  "education_degree": "Bachelor, English Philology",
+  "courses_heading": "COURSES",
+  "courses_provider": "Sii",
+  "courses_title": "Front-end Certified Developer"
 }

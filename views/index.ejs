@@ -128,13 +128,18 @@
         </ul>
       </article>
       <% }); %>
-    </section>
-    <section class="cv-page">
-      <article class="education">
-        <h3><%= __('education_heading') %></h3>
-        <h5><%= __('education_university') %></h5>
-        <span class="education__note"><%= __('education_degree') %></span>
-      </article>
+      <div class="columns">
+        <article class="education">
+          <h3><%= __('education_heading') %></h3>
+          <h5><%= __('education_degree') %></h5>
+          <span class="education__note"><%= __('education_university') %></span>
+        </article>
+        <article class="education">
+          <h3><%= __('courses_heading') %></h3>
+          <h5><%= __('courses_title') %></h5>
+          <span class="education__note"><%= __('courses_provider') %></span>
+        </article>
+      </div>
     </section>
   </body>
 </html>

@@ -1,5 +1,6 @@
 @mixin separator {
   padding-bottom: 20px;
+  margin-bottom: 20px;
   border-bottom: 1px solid;
 }
 
@@ -48,10 +49,18 @@
     margin: 0;
     box-shadow: none;
   }
+
+  .cv-page + .cv-page {
+    break-before: page;
+  }
 }
 
 a {
   color: inherit;
+}
+
+h3 {
+  margin-top: 0;
 }
 
 .heading {
@@ -154,7 +163,7 @@ a {
   padding-bottom: 8px;
   border-bottom: 1px solid #bebebe;
 
-  &:last-child {
+  &:nth-last-child(1 of .experience-panel) {
     border-bottom: none;
     @include separator;
   }
@@ -191,6 +200,11 @@ a {
   li:not(:last-child) {
     margin-bottom: 6px;
   }
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .education {
