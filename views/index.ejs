@@ -72,23 +72,12 @@
           </h4>
           <div class="skills__key-skills">
             <% common.key_skills_list.forEach(function(skill) { %>
-            <div class="skills__skill-item">
-              <strong>
-                <%= skill %>
-              </strong>
-            </div>
+            <div class="skills__skill-item"><%= skill %></div>
             <% }); %>
           </div>
         </div>
         <div class="skills__rest-skills">
           <% common.rest_skills_list.forEach(function(skill) { %>
-          <div class="skills__skill-item">
-            <strong>
-              <%= skill %>
-            </strong>
-          </div>
-          <% }); %>
-          <% common.additional_skills_list.forEach(function(skill) { %>
           <div class="skills__skill-item"><%= skill %></div>
           <% }); %>
         </div>

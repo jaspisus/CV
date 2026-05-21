@@ -20,12 +20,10 @@
     "Eslint",
     "OpenAI API (LLM)",
     "Rest API",
-    "WebSocket"
-  ],
-  "additional_skills_list": [
+    "Core Web Vitals",
+    "RWD",
+    "PWA",
     "Agile/Scrum",
-    "Jira",
-    "Adobe Photoshop",
-    "Adobe Illustrator"
+    "Jira"
   ]
 }

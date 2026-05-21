@@ -10,14 +10,6 @@ $grey-dark: #747474;
   border-bottom: 1px solid;
 }
 
-@mixin skill-item {
-  padding: 3px 6px;
-  background: $grey-skill-bg;
-  border-radius: 4px;
-  font-size: 14px;
-  border: 1px solid $grey-dark;
-}
-
 .body {
   width: 100%;
   font-family: "Montserrat", sans-serif;
@@ -157,11 +149,11 @@ h3 {
   }
 
   &__skill-item {
-    @include skill-item;
-
-    strong {
-      font-weight: 500;
-    }
+    padding: 3px 6px;
+    background: $grey-skill-bg;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid $grey-dark;
   }
 }
 
