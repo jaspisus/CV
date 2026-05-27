@@ -1,8 +1,8 @@
 {
   "key_skills_list": [
     "TypeScript",
-    "JavaScript",
-    "React.js",
+    "JavaScript (ES6+)",
+    "React (hooks, class)",
     "Next.js",
     "HTML5",
     "CSS3",
@@ -17,13 +17,13 @@
     "Node.js",
     "Express.js",
     "Git",
-    "Eslint",
     "OpenAI API (LLM)",
     "Rest API",
-    "Core Web Vitals",
-    "RWD",
+    "a11y",
+    "CI/CD (GitHub Actions)",
+    "RWD (mobile-first)",
     "PWA",
-    "Agile/Scrum",
+    "Agile / Scrum",
     "Jira"
   ]
 }
