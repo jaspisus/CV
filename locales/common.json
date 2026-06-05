@@ -1,14 +1,16 @@
 {
   "key_skills_list": [
-    "TypeScript",
-    "JavaScript",
     "React.js",
     "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
     "Tailwind",
     "Sass",
+    "Unit Testing (Jest)",
     "Redux",
     "TanStack Query",
-    "Unit Testing (Jest)",
     "Claude Code"
   ],
   "rest_skills_list": [
@@ -17,7 +19,6 @@
     "Git",
     "OpenAI API (LLM)",
     "Rest API",
-    "Core Web Vitals",
     "RWD",
     "PWA",
     "Agile / Scrum",
