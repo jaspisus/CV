@@ -6,7 +6,7 @@
   "location": "Gdynia, Trójmiasto",
   "summary_heading": "O MNIE",
   "summary_intro_strong": "Jestem programistą z blisko pięcioletnim doświadczeniem w budowie aplikacji webowych w oparciu o React i TypeScript.",
-  "summary_intro": "W ostatnim projekcie pracowałem w ramach Scrum, projektując architekturę aplikacji tworzonej w Next.js, stylowałem w Tailwind bazując na makietach w Figma, pisałem testy jednostkowe w Jest oraz zarządzałem repozytorium na GitHub.",
+  "summary_intro": "W ostatnim projekcie pracowałem w ramach Scrum, projektując architekturę aplikacji e-commerce tworzonej w Next.js, stylowałem w Tailwind bazując na makietach w Figma, pisałem testy jednostkowe w Jest oraz zarządzałem repozytorium na GitHub.",
   "summary_paragraph_2": "Skupiam się na rozwiązywaniu realnych problemów: czytelny kod, dobra architektura i funkcje, które rzeczywiście służą użytkownikom. Narzędzia AI pomagają mi pracować szybciej, a nie myśleć mniej.",
   "summary_paragraph_3": "Mam doświadczenie w komercyjnych projektach zespołowych oraz w samodzielnym projektowaniu i wdrażaniu responsywnych stron internetowych.",
   "summary_paragraph_4": "Poza pracą interesuję się elektroniką, techniką, nauką, oraz projektowaniem grafik rastrowych i wektorowych, np. zaproszeń, naklejek.",
@@ -32,14 +32,14 @@
       "position": "Frontend Developer",
       "date": "05.2023 - teraz (3 lata)",
       "achievements": [
+        "Praca nad zaawansowanymi formularzami, tabelami oraz wizualizacja danych sprzedażowych na wykresach i raportach;",
         "Odpowiedzialność za migrację aplikacji z JavaScript do TypeScript, skutecznie eliminując błędy produkcyjne;",
         "Zaawansowana znajomość Gita: code review, strategie branchowania, rozwiązywanie konfliktów przy scalaniu;",
-        "Współpraca z zespołami interdyscyplinarnymi (UX, Backend, QA, DevOps, Product, Support) w 20-osobowym zespole;",
-        "Prowadzenie ceremoniałów Scrumowych (Daily, Refinement)."
+        "Współpraca z zespołami interdyscyplinarnymi (UX, Backend, QA, DevOps, Product, Support) w 20-osobowym zespole."
       ],
       "projects": [
-        "Aplikacja CRM/CMS do zarządzania cateringiem",
-        "Panel zamawiania diet (np. <a href=\"https://zamowienie.supermenu.com.pl/\">zamowienie.supermenu.com.pl</a>)"
+        "Rozbudowana aplikacja CRM/CMS do zarządzania firmą cateringową",
+        "Panel do zamawiania oraz zarządzania dietami (np. <a href=\"https://zamowienie.supermenu.com.pl/\">supermenu.com.pl</a>)"
       ]
     },
     {

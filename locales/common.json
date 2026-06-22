@@ -4,8 +4,8 @@
     "Next.js",
     "TypeScript",
     "JavaScript",
-    "HTML",
-    "CSS",
+    "HTML5",
+    "CSS3",
     "Tailwind",
     "Sass",
     "Unit Testing (Jest)",
@@ -19,8 +19,9 @@
     "Git",
     "OpenAI API (LLM)",
     "Rest API",
-    "RWD",
+    "RWD (Mobile First)",
     "PWA",
+    "ESLint",
     "Agile / Scrum",
     "Jira"
   ]
