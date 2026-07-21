@@ -4,39 +4,41 @@
   "contact_location_alt": "location",
   "contact_linkedin_alt": "LinkedIn",
   "location": "Gdynia, Tricity",
-  "summary_heading": "SUMMARY",
-  "summary_intro_strong": "I am a developer with nearly five years of experience building web applications based on React and TypeScript.",
-  "summary_intro": "In my most recent project, I worked within a Scrum framework, designing the architecture of an application built with Next.js, styled it with Tailwind based on Figma mockups, wrote unit tests in Jest, and managed the GitHub repository.",
-  "summary_paragraph_2": "I focus on solving real problems: readable code, good architecture, and features that actually serve users. AI tools help me work faster, not think less.",
-  "summary_paragraph_3": "I have experience in commercial team projects as well as independent design and deployment of websites.",
-  "summary_paragraph_4": "Outside of work I enjoy electronics, technology, science, and designing raster and vector graphics — such as invitations and stickers.",
+  "summary_heading": "ABOUT ME",
+  "summary_intro_strong": "Frontend Developer with nearly five years of experience building production web applications in React and TypeScript.",
+  "summary_intro": "I have designed e-commerce application architecture in Next.js, led a JavaScript-to-TypeScript migration that eliminated production bugs, and work at the intersection of frontend and the API layer. I have held a frontend lead role, building an interface from scratch, and mentored junior developers.",
+  "summary_paragraph_2": "In my daily work I use AI tools such as Claude Code - they help me work faster, not think less. I focus on readable code, sound architecture, and features that genuinely serve users and the business.",
+  "summary_paragraph_3": "Outside of work I am interested in electronics, technology, and designing raster and vector graphics.",
   "skills_heading": "SKILLS",
-  "key_skills_heading": "Key Skills",
-  "sectors_knowledge": "Sectors knowledge",
+  "key_skills_heading": "Key skills",
+  "sectors_knowledge": "Domain knowledge",
   "sectors_list": [
     "e-commerce",
-    "Travel & Tourism",
-    "Cryptocurrency",
-    "Blockchain"
+    "Tourism & travel",
+    "Blockchain",
+    "Cryptocurrency"
   ],
   "languages": "Languages",
   "languages_list": ["Polish: native", "English: B2"],
   "experience_heading": "EXPERIENCE",
   "projects_heading": "Projects",
+  "education_heading": "EDUCATION",
+  "education_university": "WSB Merito University",
+  "education_degree": "Bachelor's degree, English Philology",
   "experience_panels": [
     {
       "company": "goodspeed",
       "position": "Frontend Developer",
       "date": "05.2023 - present (3 years)",
       "achievements": [
-        "Responsible for migrating the application from JavaScript to TypeScript, effectively eliminating production bugs;",
-        "Advanced Git proficiency: code reviews, branching strategies, and merge conflict resolution;",
-        "Collaborating with cross-functional teams (UX, Backend, QA, DevOps, Product, Support) in a team of 20 people;",
-        "Leading Scrum ceremonies (Daily, Refinement)."
+        "Migrated the application from JavaScript to TypeScript, eliminating production bugs;",
+        "Built advanced forms, tables, and sales data visualisations (charts, reports) in a CRM/ERP-class application;",
+        "Worked at the frontend–API boundary; code review, branching strategies, and merge conflict resolution (Git);",
+        "Collaborated with cross-functional teams (UX, Backend, QA, DevOps, Product, Support) in a 20-person team."
       ],
       "projects": [
-        "CRM/CMS application for catering management",
-        "Diet ordering panel (for eg. <a href=\"https://zamowienie.supermenu.com.pl/\">zamowienie.supermenu.com.pl</a>)"
+        "Comprehensive CRM/CMS application for managing a catering company",
+        "Diet ordering and management panel (e.g. <a href=\"https://zamowienie.supermenu.com.pl/\">supermenu.com.pl</a>)"
       ]
     },
     {
@@ -44,11 +46,11 @@
       "position": "Frontend Developer Lead",
       "date": "12.2022 - 05.2023 (6 months)",
       "achievements": [
-        "Built a complete e-commerce interface from scratch;",
-        "Provided mentorship for Junior Developers."
+        "Frontend lead: built a complete e-commerce interface from scratch;",
+        "Mentoring and code review for junior developers."
       ],
       "projects": [
-        "a cross-regional tourist information platform (for eg. <a href=\"https://meanderoravice.sk/\">meanderoravice.sk</a>)"
+        "Cross-regional tourism information platform (e.g. <a href=\"https://meanderoravice.sk/\">meanderoravice.sk</a>)"
       ]
     },
     {
@@ -57,17 +59,14 @@
       "date": "09.2021 – 12.2022 (1 year)",
       "achievements": [
         "Participated in migrating the application from React to Next.js;",
-        "Delivered continuous frontend improvements across the application"
+        "Continuously delivered frontend improvements across the entire application."
       ],
       "projects": [
         "Dashboard for managing GPU server farms (<a href=\"https://simplemining.net/\">simplemining.net</a>)"
       ]
     }
   ],
-  "education_heading": "EDUCATION",
-  "education_university": "WSB Merito University",
-  "education_degree": "Bachelor, English Philology",
   "courses_heading": "COURSES",
-  "courses_provider": "Sii",
-  "courses_title": "Front-end Certified Developer"
+  "courses_title": "Front-end Certified Developer",
+  "courses_provider": "Sii"
 }

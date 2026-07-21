@@ -1,28 +1,27 @@
 {
   "key_skills_list": [
-    "React.js",
-    "Next.js",
+    "React (Hooks)",
     "TypeScript",
+    "Next.js",
     "JavaScript",
-    "HTML5",
-    "CSS3",
-    "Tailwind",
-    "Sass",
-    "Unit Testing (Jest)",
+    "AI Integration (LLM)",
+    "REST API",
+    "WebSockets",
     "Redux",
-    "TanStack Query",
-    "Claude Code"
+    "HTML",
+    "CSS"
   ],
   "rest_skills_list": [
-    "Node.js",
-    "Express.js",
-    "Git",
-    "OpenAI API (LLM)",
-    "Rest API",
-    "RWD (Mobile First)",
-    "PWA",
+    "Tailwind",
+    "Sass (SCSS)",
+    "TanStack Query",
+    "Unit Testing (Jest)",
+    "CI/CD",
+    "Core Web Vitals",
     "ESLint",
+    "Git",
     "Agile / Scrum",
-    "Jira"
+    "Jira",
+    "i18n"
   ]
 }
