@@ -1,27 +1,30 @@
 {
   "key_skills_list": [
-    "React (Hooks)",
-    "TypeScript",
+    "React",
     "Next.js",
+    "TypeScript",
     "JavaScript",
-    "AI Integration (LLM)",
-    "REST API",
-    "WebSockets",
-    "Redux",
-    "HTML",
-    "CSS"
-  ],
-  "rest_skills_list": [
-    "Tailwind",
-    "Sass (SCSS)",
     "TanStack Query",
+    "Redux",
     "Unit Testing (Jest)",
     "CI/CD",
-    "Core Web Vitals",
-    "ESLint",
-    "Git",
-    "Agile / Scrum",
+    "RWD (Mobile First)",
+    "Agile / Scrum"
+  ],
+  "rest_skills_list": [
+    "AI Integration (LLM)",
+    "Claude Code",
+    "Prompt Engineering",
+    "REST API",
+    "WebSockets",
+    "React-Router",
+    "i18n",
+    "CSS-in-JS",
+    "Material UI",
     "Jira",
-    "i18n"
+    "Husky",
+    "Git",
+    "Tailwind",
+    "Sass"
   ]
 }
