@@ -4,18 +4,29 @@
   "contact_location_alt": "lokalizacja",
   "contact_linkedin_alt": "LinkedIn",
   "location": "Gdynia, Trójmiasto",
+  "heading_position": "Frontend Developer",
+  "heading_position_line2": "Analiza wymagań · integracje API · specyfikacje",
   "summary_heading": "O MNIE",
-  "summary_intro_strong": "Frontend Developer z pięcioletnim doświadczeniem produkcyjnym w React i TypeScript.",
-  "summary_intro": "Przeprowadziłem migrację kodu z JavaScript do TypeScript, która obniżyła liczbę błędów produkcyjnych. Wcześniej budowałem interfejs e-commerce od podstaw jako frontend lead, mentorując dwóch programistów.",
-  "summary_paragraph_2": "Pracuję na styku frontendu i API, na co dzień używam Claude Code w procesie wytwórczym. Skupiam się na dobrej architekturze, wydajności i funkcjach, które realnie służą użytkownikom i biznesowi, nie na samym dostarczaniu ekranów.",
+  "summary_intro_strong": "Frontend Developer z pięcioletnim doświadczeniem produkcyjnym w systemach klasy CMS/ERP i e-commerce.",
+  "summary_intro": "Znam systemy od strony kodu, danych i API. Zanim zacznę implementację, wyłapuję luki i niejasności w wymaganiach, upraszczam rozwiązanie i sprawdzam, jak zmiana zadziała dla użytkowników.",
+  "summary_paragraph_2": "Pracuję nad systemem CMS/ERP o wielu modułach i integracjach zewnętrznych, w 20-osobowym zespole, na co dzień współpracując z Product, Backend, QA, UX i Support przy szybko zmieniających się potrzebach klientów. Wcześniej przez ponad 7 lat pracowałem w handlu i gastronomii, gdzie planowałem pracę zespołu i raportowałem postępy. W procesie wytwórczym używam Claude Code.",
   "summary_paragraph_3": "Poza pracą interesuję się elektroniką, techniką oraz projektowaniem grafiki rastrowej i wektorowej.",
   "skills_heading": "UMIEJĘTNOŚCI",
-  "key_skills_heading": "Kluczowe umiejętności",
   "sectors_knowledge": "Znajomość sektorów",
-  "sectors_list": ["e-commerce", "Turystyka i podróże", "Blockchain"],
+  "sectors_list": [
+    "Catering / FoodTech",
+    "e-commerce",
+    "Turystyka i podróże",
+    "Blockchain",
+    "Retail"
+  ],
   "languages": "Języki",
-  "languages_list": ["Polski: ojczysty", "Angielski: C1"],
+  "languages_list": [
+    "Polski: ojczysty",
+    "Angielski: C1"
+  ],
   "experience_heading": "DOŚWIADCZENIE",
+  "earlier_experience_heading": "WCZEŚNIEJSZE DOŚWIADCZENIE",
   "projects_heading": "Projekty",
   "education_heading": "WYKSZTAŁCENIE",
   "education_university": "Uniwersytet WSB Merito",
@@ -27,12 +38,13 @@
       "date": "05.2023 - teraz (3 lata)",
       "achievements": [
         "Migracja aplikacji z JavaScript do TypeScript, która wyeliminowała błędy produkcyjne;",
-        "Budowa zaawansowanych formularzy, tabel oraz wizualizacji danych sprzedażowych (wykresy, raporty) w aplikacji klasy CRM/ERP;",
-        "Praca na styku frontendu i API; code review, strategie branchowania i rozwiązywanie konfliktów przy scalaniu (Git);",
-        "Współpraca z zespołami UX, Backend, QA, DevOps, Product i Support w 20-osobowym zespole."
+        "Budowa zaawansowanych formularzy, tabel oraz wizualizacji danych sprzedażowych (wykresy, raporty) w systemie CMS/ERP dla firm cateringowych;",
+        "Praca na styku frontendu i API: ustalanie kontraktów danych z zespołem Backend, w tym diagramy przepływu danych między modułami; code review, strategie branchowania (Git);",
+        "Doprecyzowywanie wymagań zgłaszanych przez Product i Support oraz ich techniczne opisywanie dla zespołu (Jira) przed rozpoczęciem implementacji;",
+        "Wdrażanie po stronie frontendu integracji z systemami zewnętrznymi oraz modelu ról i uprawnień użytkowników."
       ],
       "projects": [
-        "Rozbudowana aplikacja CRM/CMS do zarządzania firmą cateringową",
+        "Rozbudowana aplikacja CMS/ERP do zarządzania firmą cateringową",
         "Panel do zamawiania oraz zarządzania dietami (np. <a href=\"https://zamowienie.supermenu.com.pl/\">supermenu.com.pl</a>)"
       ]
     },
@@ -53,7 +65,7 @@
       "position": "Junior Frontend Developer",
       "date": "09.2021 – 12.2022 (1 rok)",
       "achievements": [
-        "Udział w migracji aplikacji z React do Next.js;",
+        "Analiza istniejących funkcji dashboardu pod kątem migracji z React do Next.js oraz udział w samej migracji;",
         "Stałe dostarczanie usprawnień frontendowych w całej aplikacji."
       ],
       "projects": [
@@ -61,7 +73,30 @@
       ]
     }
   ],
+  "earlier_experience_panels": [
+    {
+      "company": "IKEA Group",
+      "position": "Shop Assistant",
+      "date": "03.2017 – 11.2020 (3 lata 9 miesięcy)",
+      "achievements": [
+        "Zarządzanie przebudową działu pod nową kolekcję: planowanie prac w czasie, raportowanie postępów przełożonemu, koordynacja wielu funkcji w sklepie dla zapewnienia dostępności i ekspozycji towaru;",
+        "Doradztwo klientom w doborze mebli modułowych i sprzętu AGD;",
+        "Przygotowywanie wielkoformatowej komunikacji cenowej w Adobe InDesign."
+      ]
+    },
+    {
+      "company": "McDonald's",
+      "position": "Swing Manager",
+      "date": "06.2013 – 02.2017 (3 lata 9 miesięcy)",
+      "achievements": [
+        "Nadzór nad pracą zmiany liczącej około 30 osób;",
+        "Planowanie zamówień towaru, przyjmowanie dostaw i przeprowadzanie całościowej inwentaryzacji;",
+        "Kontrola bezpieczeństwa gotówki w restauracji."
+      ]
+    }
+  ],
   "courses_heading": "KURSY",
   "courses_title": "Front-end Certified Developer",
-  "courses_provider": "Sii"
+  "courses_provider": "Sii",
+  "photo_alt": "Zdjęcie profilowe"
 }
