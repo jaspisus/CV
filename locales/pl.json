@@ -5,7 +5,7 @@
   "contact_linkedin_alt": "LinkedIn",
   "location": "Gdynia, Trójmiasto",
   "heading_position": "Frontend Developer",
-  "heading_position_line2": "Analiza wymagań · integracje API · specyfikacje",
+  "heading_position_line2": "Analiza wymagań · architektura · integracje API",
   "summary_heading": "O MNIE",
   "summary_intro_strong": "Frontend Developer z pięcioletnim doświadczeniem produkcyjnym w systemach klasy CMS/ERP i e-commerce.",
   "summary_intro": "Znam systemy od strony kodu, danych i API. Zanim zacznę implementację, wyłapuję luki i niejasności w wymaganiach, upraszczam rozwiązanie i sprawdzam, jak zmiana zadziała dla użytkowników.",
@@ -21,10 +21,7 @@
     "Retail"
   ],
   "languages": "Języki",
-  "languages_list": [
-    "Polski: ojczysty",
-    "Angielski: C1"
-  ],
+  "languages_list": ["Polski: ojczysty", "Angielski: C1"],
   "experience_heading": "DOŚWIADCZENIE",
   "earlier_experience_heading": "WCZEŚNIEJSZE DOŚWIADCZENIE",
   "projects_heading": "Projekty",
