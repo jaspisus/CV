@@ -14,8 +14,9 @@ Personal CV/resume website for Mateusz Jackowski (Frontend Developer).
 
 ```
 server.js           # Express app + i18n config
-views/index.ejs     # CV template (3 A4 pages: summary+skills, IT experience, earlier experience+education)
+views/index.ejs     # CV template (3 A4 pages: summary+skills, IT experience, earlier experience+education) + optional cover letter page
 views/partials/experience-panel.ejs  # Single experience entry, included on pages 2 and 3
+views/partials/gdpr-clause.ejs       # GDPR consent clause, included on page 3 and the cover letter
 index.scss          # Source styles — edit this
 index.css           # Compiled output — do not edit
 locales/
@@ -31,7 +32,9 @@ assets/             # SVG icons (email, phone, location, LinkedIn)
 - `common.*` — shared data passed from `server.js` as `{ common }`, not translated
 - Arrays (e.g. `experience_panels`, `earlier_experience_panels`, `sectors_list`) live in locale files and are iterated in the template with `forEach`
 - `experience_panels` entries may omit `projects`; the partial renders the "Projects" block only when present
-- **`pl.json` is the source of truth** — the CV was re-profiled for a System Analyst role in Polish; `en.json` is outdated and will be rebuilt separately
+- **`pl.json` is the source of truth** — on this branch (`insoft-consulting`) the Polish CV is profiled for an ERP implementation consultant role at Insoft Consulting (not System Analyst); `en.json` is outdated and will be rebuilt separately
+- PL-only content (`cover_letter`, `gdpr_clause`) is read via `getCatalog()` instead of `__()`, so locales without these keys simply skip them
+- i18n writes missing keys into locale files on render (`updateFiles` default) — opening `?lang=en` currently adds placeholder keys to `en.json`; revert that file if it happens
 
 ## CSS Conventions
 
