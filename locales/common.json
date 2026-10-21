@@ -1,18 +1,14 @@
 {
   "skills_list": [
-    "Analiza potrzeb biznesowych",
-    "Analiza i dokumentowanie wymagań",
     "Systemy ERP / CRM",
     "Procesy handlowe i magazynowe",
     "Integracje systemów (REST API)",
     "SQL",
-    "Diagramy przepływu danych",
-    "Raportowanie i wizualizacja danych",
+    "Raportowanie sprzedaży",
     "Role i uprawnienia użytkowników",
-    "Jira",
-    "Agile / Scrum",
+    "Szkolenie użytkowników",
+    "Obsługa zgłoszeń (Jira)",
     "TypeScript / JavaScript",
-    "Git",
     "Narzędzia AI (Claude Code, LLM)"
   ]
 }

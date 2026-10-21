@@ -5,11 +5,11 @@
   "contact_linkedin_alt": "LinkedIn",
   "location": "Gdynia, Trójmiasto",
   "heading_position": "Frontend Developer · systemy ERP",
-  "heading_position_line2": "Analiza potrzeb · procesy biznesowe · integracje",
+  "heading_position_line2": "Procesy handlowe i logistyczne · integracje systemów",
   "summary_heading": "O MNIE",
   "summary_intro_strong": "Developer z pięcioletnim doświadczeniem w systemach klasy ERP/CRM i e-commerce, wcześniej przez ponad 7 lat w handlu i gastronomii.",
-  "summary_intro": "Znam systemy wspierające zarządzanie firmą z dwóch stron: jako pracownik, który zamawiał towar, przyjmował dostawy i przeprowadzał inwentaryzacje, oraz jako programista, który rozwija system ERP, jego dane i integracje. Zanim zaproponuję rozwiązanie, dopytuję o rzeczywisty proces i potrzebę klienta, wyłapuję luki w wymaganiach i szukam najprostszej drogi do celu.",
-  "summary_paragraph_2": "Od 2023 roku rozwijam w goodspeed wielomodułowy system ERP/CRM dla firm cateringowych, zintegrowany z systemami zewnętrznymi. Pracuję w 20-osobowym zespole, na co dzień z Product, Backend, QA, UX i Supportem, przy szybko zmieniających się potrzebach klientów. Chcę rozwijać się w kierunku wdrożeń i integracji systemów ERP: analizy potrzeb klientów z różnych branż, projektowania rozwiązań i optymalizacji procesów. W pracy korzystam z narzędzi AI (Claude Code).",
+  "summary_intro": "Znam systemy wspierające zarządzanie firmą z dwóch stron: jako pracownik, który zamawiał towar, przyjmował dostawy i przeprowadzał inwentaryzacje, oraz jako programista, który rozwija system ERP i jego integracje. Zanim zacznę implementację, wyjaśniam niejasności w zgłoszeniu, upraszczam rozwiązanie i sprawdzam, jak zmiana zadziała dla użytkowników. Szybko uczę się nowych systemów.",
+  "summary_paragraph_2": "Od 2023 roku rozwijam w goodspeed wielomodułowy system ERP/CRM dla firm cateringowych, zintegrowany z systemami zewnętrznymi. Pracuję w 20-osobowym zespole, na co dzień z Product, Backend, QA, UX i Supportem, przy szybko zmieniających się potrzebach klientów. Chcę rozwijać się w kierunku wdrożeń i integracji systemów ERP: pracy bezpośrednio z klientami z różnych branż, dopasowania systemu do ich procesów, szkolenia użytkowników i wsparcia po wdrożeniu. W pracy korzystam z narzędzi AI (Claude Code).",
   "summary_paragraph_3": "Poza pracą interesuję się elektroniką, techniką oraz projektowaniem grafiki rastrowej i wektorowej.",
   "skills_heading": "UMIEJĘTNOŚCI",
   "sectors_knowledge": "Znajomość branż",
@@ -35,10 +35,10 @@
       "position": "Frontend Developer",
       "date": "05.2023 - teraz (3 lata)",
       "achievements": [
-        "Rozwój systemu ERP/CRM dla firm cateringowych: od analizy zgłoszenia, przez projekt rozwiązania, po wdrożenie na produkcję;",
-        "Analiza potrzeb klientów zgłaszanych przez Product i Support: doprecyzowanie wymagań, wyłapywanie luk i opisywanie zadań w Jira przed implementacją;",
-        "Integracje z systemami zewnętrznymi i model ról oraz uprawnień użytkowników; ustalanie z zespołem Backend kontraktów danych (API), w tym diagramy przepływu danych między modułami;",
-        "Raporty i wizualizacje danych sprzedażowych oraz rozbudowane formularze i tabele do codziennego zarządzania firmą;",
+        "Rozwój systemu ERP/CRM, w którym firmy cateringowe na co dzień obsługują zamówienia, sprzedaż i planowanie dostaw;",
+        "Realizacja zgłoszeń klientów przekazywanych przez Product i Support: wyjaśnianie niejasności przed implementacją i dobór najprostszego rozwiązania;",
+        "Integracje z systemami zewnętrznymi oraz model ról i uprawnień użytkowników, we współpracy z zespołem Backend;",
+        "Raporty i wizualizacje danych sprzedażowych oraz rozbudowane formularze i tabele do codziennej pracy użytkowników;",
         "Migracja aplikacji z JavaScript do TypeScript, która wyeliminowała błędy produkcyjne."
       ],
       "projects": [
@@ -63,7 +63,7 @@
       "position": "Junior Frontend Developer",
       "date": "09.2021 – 12.2022 (1 rok)",
       "achievements": [
-        "Analiza istniejących funkcji dashboardu przed migracją z React do Next.js oraz udział w samej migracji;",
+        "Udział w migracji aplikacji z React do Next.js;",
         "Stałe dostarczanie usprawnień w całej aplikacji."
       ],
       "projects": [
