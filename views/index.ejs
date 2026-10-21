@@ -117,6 +117,39 @@
           <span class="education__note"><%= __('courses_provider') %></span>
         </article>
       </div>
+      <%- include('partials/gdpr-clause') %>
     </section>
+    <% const letter = getCatalog().cover_letter; %>
+    <% if (letter) { %>
+    <section class="cv-page letter">
+      <header class="letter__header">
+        <div>
+          <h1 class="letter__name">Mateusz Jackowski</h1>
+          <div class="letter__contact">
+            <span>mat.jackowski@icloud.com</span>
+            <span>+48 795 193 833</span>
+          </div>
+        </div>
+        <span class="letter__date">
+          <%= letter.place %>, <%= new Date().toLocaleDateString(getLocale(), {
+          day: 'numeric', month: 'long', year: 'numeric' }) %>
+        </span>
+      </header>
+      <address class="letter__recipient">
+        <% letter.recipient.forEach(function(line) { %>
+        <span><%= line %></span>
+        <% }); %>
+      </address>
+      <p class="letter__paragraph"><%= letter.greeting %></p>
+      <% letter.paragraphs.forEach(function(paragraph) { %>
+      <p class="letter__paragraph"><%= paragraph %></p>
+      <% }); %>
+      <p class="letter__closing">
+        <%= letter.closing %><br />
+        Mateusz Jackowski
+      </p>
+      <%- include('partials/gdpr-clause') %>
+    </section>
+    <% } %>
   </body>
 </html>

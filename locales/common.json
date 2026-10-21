@@ -1,17 +1,18 @@
 {
   "skills_list": [
-    "TypeScript",
-    "JavaScript",
-    "REST API",
-    "WebSockets",
+    "Analiza potrzeb biznesowych",
+    "Analiza i dokumentowanie wymagań",
+    "Systemy ERP / CRM",
+    "Procesy handlowe i magazynowe",
+    "Integracje systemów (REST API)",
     "SQL",
+    "Diagramy przepływu danych",
+    "Raportowanie i wizualizacja danych",
+    "Role i uprawnienia użytkowników",
     "Jira",
     "Agile / Scrum",
-    "CI/CD",
-    "Unit Testing (Jest)",
+    "TypeScript / JavaScript",
     "Git",
-    "AI Integration (LLM)",
-    "Claude Code",
-    "Prompt Engineering"
+    "Narzędzia AI (Claude Code, LLM)"
   ]
 }

@@ -1,0 +1,4 @@
+<%# Read from the catalog so locales without the clause skip it %>
+<% if (getCatalog().gdpr_clause) { %>
+<p class="gdpr-clause"><%= getCatalog().gdpr_clause %></p>
+<% } %>
