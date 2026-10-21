@@ -15,7 +15,8 @@ All available skills for the CV. Use ONLY entries from this list — never inven
 | REST API             | —                                    |
 | WebSockets           | —                                    |
 | Redux                | RTK, Redux Toolkit                   |
-| TanStack Query       | —                                    |
+| TanStack Query       | React Query                          |
+| React Hook Form      | —                                    |
 | RWD (Mobile First)   | Responsive Web Design (Mobile First) |
 | Core Web Vitals      | WCAG                                 |
 | Tailwind             | Tailwind CSS                         |
@@ -31,6 +32,7 @@ All available skills for the CV. Use ONLY entries from this list — never inven
 | Prompt Engineering   | —                                    |
 | React-Router         | —                                    |
 | Husky                | —                                    |
+| GitHub               | —                                    |
 
 ## Pinned skills
 
@@ -54,7 +56,6 @@ Include these **only if the offer explicitly mentions them** by name. Never add 
 | Node.js     | Node              |
 | Express.js  | —                 |
 | Vite        | —                 |
-| Azure       | Microsoft Azure   |
 | Photoshop   | Adobe Photoshop   |
 | Illustrator | Adobe Illustrator |
 | ESLint      |                   |
